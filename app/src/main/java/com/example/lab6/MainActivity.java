@@ -21,5 +21,4 @@ public class MainActivity extends AppCompatActivity {
         intencja.putExtra("gra", v.getId());
         startActivity(intencja);
     }
-
 }
