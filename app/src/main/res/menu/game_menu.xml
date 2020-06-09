@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu
-    xmlns:android="http://schemas.android.com/apk/res/an
-droid"
-    xmlns:app="http://schemas.android.com/apk/resauto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:title="Odśwież"
         android:id="@+id/textBar"
@@ -10,4 +8,5 @@ droid"
         android:onClick="refresh"
         app:showAsAction = "always|withText"
         />
+
 </menu>
